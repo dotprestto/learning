@@ -1,0 +1,6 @@
+{
+    "deepcode.review.results.hideInformationIssues": false,
+    "files.associations": {
+        "stdio.h": "c"
+    }
+}
