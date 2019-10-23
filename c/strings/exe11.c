@@ -1,5 +1,6 @@
 #include <ctype.h>
 #include <stdio.h>
+#include <string.h>
 
 void removePos(char str[], int position) {
     for (int i = position; str[i]; i++) {
@@ -10,6 +11,7 @@ void removePos(char str[], int position) {
 void removeChar(char str[], char referencia[]) {
     for (int i = 0; str[i]; i++) {
         for (int j = 0; referencia[j]; j++) {
+            strchr(str, referencia[i]);
             if (str[i] == referencia[j]) {
                 removePos(str, i);
                 j--;
@@ -20,9 +22,9 @@ void removeChar(char str[], char referencia[]) {
 int main() {
     int casos;
     char str[100], referencia[100];
-    gets(referencia);
 
-    scanf("%d\n", &casos);
+    scanf("%d%*c\n", &casos);
+    gets(referencia);
 
     for (int i = 0; i < casos; i++) {
         gets(str);
