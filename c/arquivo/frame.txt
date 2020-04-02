@@ -1,0 +1,16 @@
+Para: <email>
+Assunto: Mudança de email
+
+Prezad<artigo> <last>,
+
+Informamos a seguinte mudança na sua conta de email a 
+partir do próximo mês:
+
+   email: <novo>
+   senha: <senha>
+
+Solicitamos alterar a senha após o primeiro acesso.
+
+Atenciosamente,
+
+Administracao
